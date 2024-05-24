@@ -1,6 +1,6 @@
-import app from "../src/app.js";
-import debugLib from "debug";
-import http from "http";
+const app = require("../app.js");
+const debugLib = require("debug");
+const http = require("http");
 
 const debug = debugLib("myapp:server");
 
@@ -9,8 +9,8 @@ app.set("port", port);
 
 const server = http.createServer(app);
 
-server.listen(port, ()=> {
-  console.log(`Online server -> http://localhost:${port}`)
+server.listen(port, () => {
+  console.log(`Online server -> http://localhost:${port}`);
 });
 server.on("error", onError);
 server.on("listening", onListening);

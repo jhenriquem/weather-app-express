@@ -7,7 +7,6 @@ Este é um aplicativo de clima simples que permite aos usuários obter informaç
 <samp>
 /weather-app<br>
 - src/<br>
--- app.js<br>
 -- queryAPI.js<br>
 - public/<br>
 -- images/<br>
@@ -19,6 +18,7 @@ Este é um aplicativo de clima simples que permite aos usuários obter informaç
 - views/<br>
 -- error.ejs<br>
 -- index.ejs<br>
+- app.js<br>
 - .env -> variáveis de ambiente
 </samp>
 

@@ -1,5 +1,5 @@
-import express from "express";
-import Weather from "../src/queryAPI.js";
+const express = require("express");
+const Weather = require("../src/queryAPI.js");
 const router = express.Router();
 
 router.get("/", (req, res, next) => {
@@ -15,4 +15,4 @@ router.get("/", (req, res, next) => {
 
 router.post("/", Weather.query);
 
-export default router;
+module.exports = router;

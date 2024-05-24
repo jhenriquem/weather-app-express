@@ -1,6 +1,6 @@
-import axios from "axios";
+const axios = require("axios");
 
-export default class Weather {
+class Weather {
   static async query(req, res, next) {
     const city = req.body.city;
     const apiURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.APIKEY}`;
@@ -46,3 +46,5 @@ export default class Weather {
     }
   }
 }
+
+module.exports = Weather;
