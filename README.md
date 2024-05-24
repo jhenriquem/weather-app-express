@@ -43,4 +43,4 @@ Este é um aplicativo de clima simples que permite aos usuários obter informaç
 
 ## Preview
 
-![App Screenshot](https://raw.githubusercontent.com/jhenriquem/weather-app/main/screenshots.png)
+![App Screenshot](https://raw.githubusercontent.com/jhenriquem/weather-app-express/main/screenshots.png)
