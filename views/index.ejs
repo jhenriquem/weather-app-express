@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <script
+      src="https://kit.fontawesome.com/e78161c1f6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <form method="post"  class="searchForm">
+        <i class="fa-solid fa-location-dot"></i>
+        <input
+          type="text"
+          id="city-input"
+          name="city"
+          placeholder="Enter your location"
+          class="name-city-input"
+          required
+        />
+        <button type="submit" class="search-city">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+      <main class="climate-content">
+        <p class="name-city"><%= cityName %></p>
+        <div class="img-climate-box">
+          <i id="img-climate" class="<%= Icon %>"></i>
+        </div>
+        <div class="climate-data">
+          <p class="temperature-climate"><%= temperature %></p>
+          <legend class="description-climate"><%= description %></legend>
+        </div>
+      </main>
+      <div class="outher-climate-data">
+        <div class="wind-climate">
+          <i class="fa-solid fa-wind"></i>
+          <p class="wind-speed"><%= windSpeed %></p>
+        </div>
+        <div class="humidity-climate">
+          <i class="fa-solid fa-water"></i>
+          <p class="humidity-percentage"><%= humidity %></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
