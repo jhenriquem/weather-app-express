@@ -57,7 +57,7 @@ cd weather-app-express
 
 3 - Instale todas as dependências e execute o projeto
 ```bash
-npm i -y 
+npm init -y 
 npm install
 npm run start
 ```
