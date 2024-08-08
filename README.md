@@ -1,6 +1,17 @@
-# Weather app
+<h1 align="center"> Weather app</h1>
 
-Este é um aplicativo de clima simples que permite aos usuários obter informações meteorológicas para uma cidade específica.
+![App Screenshot](https://raw.githubusercontent.com/jhenriquem/weather-app-express/main/screenshots.png)
+
+## Descrição
+Website que permite ver clima e informações meteorológicas de uma cidade específica. Interface simples e intuitiva.
+
+## Tecnologias Utilizadas
+
+- Node.js
+- Express
+- CSS
+- Ejs
+- JavaScript
 
 ## Estrutura do Projeto
 
@@ -22,25 +33,31 @@ Este é um aplicativo de clima simples que permite aos usuários obter informaç
 - .env -> variáveis de ambiente
 </samp>
 
-## Funcionalidades
 
-- Permite ao usuário inserir o nome de uma cidade e obter os dados meteorológicos correspondentes.
-- Utiliza a API OpenWeatherMap para obter os dados do clima.
-- Interface simples e fácil de usar.
 
-## Pré-requisitos
+## Instalação e Uso
 
+### Pré-requisitos
+
+- Git
 - Node.js instalado (versão 14 ou superior)
 - Conta na [OpenWeatherMap](https://openweathermap.org/) para obter uma API Key.
 
-## Tecnologias Utilizadas
+### Git clone
 
-- Node.js
-- Express
-- CSS
-- Ejs
-- JavaScript
+1 - Clone o repositório 
+```bash
+git clone https://github.com/jhenriquem/weather-app-express
+```
 
-## Preview
+2 - Acesse a pasta do projeto 
+```bash 
+cd weather-app-express
+```
 
-![App Screenshot](https://raw.githubusercontent.com/jhenriquem/weather-app-express/main/screenshots.png)
+3 - Instale todas as dependências e execute o projeto
+```bash
+npm i -y 
+npm install
+npm run start
+```
